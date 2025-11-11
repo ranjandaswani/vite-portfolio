@@ -16,6 +16,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<About />} />
+            <Route path="/portfolio" element={<About />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
